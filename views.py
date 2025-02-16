@@ -7,7 +7,7 @@ from .models import Chat
 import google.generativeai as genai
 
 
-genai.configure(api_key="AIzaSyCC4IwPrhyMKPe-NRn8Nrbssf0tZ_k6Nd4")
+genai.configure(api_key="YOUR API-KEY")
 
 
 def ask_gemini(message):
